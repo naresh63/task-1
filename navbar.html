@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 7px;
+      }
+      .container {
+        border: 1px solid black;
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: grey;
+        color: white;
+      }
+
+      ul {
+        list-style-type: none;
+        height: 40px;
+      }
+      li {
+        display: inline;
+        margin-left: 20px;
+      }
+      .logo-cont {
+        min-width: 100px;
+      }
+      .menu-cont {
+        min-width: 300px;
+      }
+      .login-cont {
+        min-width: 70px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      button {
+        background-color: green;
+        color: white;
+        border: 1px solid greenyellow;
+        border-radius: 8px;
+        width: 100px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="logo-cont">
+        <img src="./logo.JPG" alt="logo" height="45px" />
+      </div>
+      <div class="menu-cont">
+        <ul>
+          <li><a href="/home">Home </a></li>
+          <li><a href="/blog">Blog </a></li>
+          <li><a href="/courses">Courses </a></li>
+          <li><a href="/teachrs">Teachers</a></li>
+          <li><a href="/jobs">Jobs</a></li>
+        </ul>
+      </div>
+      <div class="login-cont"><button>LOGIN</button></div>
+    </div>
+  </body>
+</html>
